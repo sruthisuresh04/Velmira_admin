@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 const BookingPanel = () => {
-const backendUrl = import.meta.env.VITE_BACKEND_URLL;
+const backendUrl = import.meta.env.VITE_BACKEND_URL;
   const [bookings, setBookings] = useState([]);
 
   const fetchBookings = async () => {
